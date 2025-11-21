@@ -2,7 +2,7 @@
 
 A real-time voxel rendering experiment running directly in the browser, inspired by engines like Minecraft.
 
-This project explores computer graphics techniques to render thousands of cubes with high performance using **Three.js** and **InstancedMesh**, alongside procedural terrain generation.
+This project began as a personal challenge to replicate the voxel terrain aesthetic seen in Sebastian Aaltonen's WebGPU demos. My goal was to achieve a similar visual style and performance using standard WebGL via Three.js. It serves as a study on rendering optimization, procedural generation, and 3D game logic within the browser.
 
 ![Badge In Development](https://img.shields.io/badge/Status-In%20Development-yellow)
 ![Badge ThreeJS](https://img.shields.io/badge/Tech-Three.js-black)
@@ -62,4 +62,5 @@ Currently, the collision system uses a mathematical heightmap function to determ
 
 ## 🤝 Credits
 
+* Inspired by the graphics engineering work of [Sebastian Aaltonen](https://twitter.com/SebAaltonen).
 * Built with [Three.js](https://threejs.org/).
