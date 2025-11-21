@@ -1,0 +1,46 @@
+/* style.css */
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    font-family: monospace;
+}
+
+#instructions {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 8px;
+    user-select: none; /* Impede selecionar o texto */
+}
+
+#debug {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: lime;
+    pointer-events: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #000;
+}
+
+/* A Mira que adicionamos */
+#crosshair {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 5;
+}
