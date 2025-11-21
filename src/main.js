@@ -31,7 +31,7 @@ function getTerrainHeight(x, z) {
 }
 
 // --- 3. CRIANDO OS VOXELS ---
-const size = 50; 
+const size = 200; 
 const geometry = new THREE.BoxGeometry(1, 1, 1);
 const material = new THREE.MeshStandardMaterial({ color: 0xffffff });
 // * Importante: Definir usage dynamic se formos modificar a matriz frequentemente, mas para esse demo static funciona
