@@ -56,7 +56,7 @@ Currently, the collision system uses a mathematical heightmap function to determ
 
 ## 📸 Screenshots
 
-![Project Screenshot](<img width="1920" height="912" alt="image" src="https://github.com/user-attachments/assets/8fda3e52-10f2-42e5-9d5a-e6048c9b962d" />)
+![Project Screenshot](img\Captura%20de%20tela%202025-11-21%20094200.png)
 
 ---
 
