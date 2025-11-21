@@ -11,7 +11,7 @@ This project explores computer graphics techniques to render thousands of cubes 
 
 ## 🎮 Live Demo
 
-**[Click here to play](())**
+**[Click here to play]((https://tarcizioo.github.io/Voxel-Terrain-Engine/))**
 
 ---
 
@@ -56,7 +56,7 @@ Currently, the collision system uses a mathematical heightmap function to determ
 
 ## 📸 Screenshots
 
-![Project Screenshot](img\Captura%20de%20tela%202025-11-21%20094200.png)
+![Project Screenshot](gamedemo.png)
 
 ---
 
