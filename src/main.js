@@ -1,4 +1,3 @@
-// src/main.js
 import * as THREE from 'three';
 import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
 
@@ -34,7 +33,6 @@ function getTerrainHeight(x, z) {
 const size = 200; 
 const geometry = new THREE.BoxGeometry(1, 1, 1);
 const material = new THREE.MeshStandardMaterial({ color: 0xffffff });
-// * Importante: Definir usage dynamic se formos modificar a matriz frequentemente, mas para esse demo static funciona
 const mesh = new THREE.InstancedMesh(geometry, material, size * size * 10); 
 mesh.castShadow = true;
 mesh.receiveShadow = true;

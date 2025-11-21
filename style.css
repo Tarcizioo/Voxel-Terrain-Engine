@@ -19,7 +19,7 @@ body {
     cursor: pointer;
     z-index: 10;
     border-radius: 8px;
-    user-select: none; /* Impede selecionar o texto */
+    user-select: none;
 }
 
 #debug {
