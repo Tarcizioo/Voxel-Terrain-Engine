@@ -1,4 +1,4 @@
-# 🌲 Voxel Terrain Engine (Three.js)
+# Voxel Terrain Engine (Three.js)
 
 A real-time voxel rendering experiment running directly in the browser, inspired by engines like Minecraft.
 
@@ -9,12 +9,12 @@ This project began as a personal challenge to replicate the voxel terrain aesthe
 
 ---
 
-## 🎮 Live Demo
+## Live Demo
 
 **[Click here to play](https://tarcizioo.github.io/Voxel-Terrain-Engine/)**
 ---
 
-## ✨ Features
+## Features
 
 * **Procedural Generation:** Terrain is mathematically generated using noise algorithms (sine waves), automatically creating valleys and mountains.
 * **Optimized Rendering:** Uses `THREE.InstancedMesh` to draw thousands of blocks with a single Draw Call, maintaining 60 FPS.
@@ -22,13 +22,13 @@ This project began as a personal challenge to replicate the voxel terrain aesthe
 * **Interaction:** Raycasting for block detection and visual destruction.
 * **FPS Controls:** Classic WASD movement + Jump and mouse look (Pointer Lock).
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **JavaScript (ES6 Modules)**
 * **Three.js** (3D Library)
 * **HTML5 & CSS3**
 
-## 🕹️ Controls
+## Controls
 
 | Key | Action |
 | :--- | :--- |
@@ -38,11 +38,11 @@ This project began as a personal challenge to replicate the voxel terrain aesthe
 | **LEFT CLICK** | Break block (Visual) |
 | **ESC** | Pause / Unlock cursor |
 
-## 🚀 How to run locally
+## How to run locally
 
 To run this project on your machine, you will need a simple local server (due to browser ES6 module security policies).
 
-## 🧠 Deep Dive
+## Deep Dive
 
 ### InstancedMesh Optimization
 Instead of creating 20,000 separate `Mesh` objects (which would crash the browser), i create just **one** geometry and **one** material. `InstancedMesh` replicates this object thousands of times on the GPU, allowing for vast worlds with no performance drop.
@@ -53,13 +53,13 @@ Currently, the collision system uses a mathematical heightmap function to determ
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ![Project Screenshot](gamedemo.png)
 
 ---
 
-## 🤝 Credits
+## Credits
 
 * Inspired by the graphics engineering work of [Sebastian Aaltonen](https://twitter.com/SebAaltonen).
 * Built with [Three.js](https://threejs.org/).
