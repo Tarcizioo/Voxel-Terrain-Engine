@@ -11,8 +11,7 @@ This project explores computer graphics techniques to render thousands of cubes 
 
 ## 🎮 Live Demo
 
-**[Click here to play]((https://tarcizioo.github.io/Voxel-Terrain-Engine/))**
-
+**[Click here to play](https://tarcizioo.github.io/Voxel-Terrain-Engine/)**
 ---
 
 ## ✨ Features
